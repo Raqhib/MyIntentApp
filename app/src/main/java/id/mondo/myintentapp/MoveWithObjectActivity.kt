@@ -26,7 +26,7 @@ class MoveWithObjectActivity : AppCompatActivity() {
 
 
         if (person != null){
-            val text = "Name: ${person.name.toString()},/nEmail: ${person.email},/nAge: ${person.age},/nLocation: ${person.city}"
+            val text = "Name: ${person.name.toString()},\nEmail: ${person.email},\nAge: ${person.age},\nLocation: ${person.city}"
             tvObject.text = text
         }
     }
